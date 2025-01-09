@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    z-index: 0;
+    position: relative;
+}
+.loginbuttons {
+    display: flex;
+    justify-content: center;
+}
+.loginbuttons a{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    list-style-type: none;
+    padding: 10px;
+}
+.loginbuttons a button{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: gainsboro;
+}
+.loginbuttons a button:hover{
+    background-color: rgba(0, 0, 0, 0.956);
+    transition: 0.7s;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+footer{
+    background-color: #111;
+}
+.loginfootercontanier{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.loginicons{
+    display: flex;
+    justify-content: center;
+}
+.loginicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+}
+.loginicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.loginicons a:hover{
+    background-color: #111;
+    transition: 0.s;
+}
+.loginicons a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+.loginfooternav{
+    margin: 30px 0;
+    margin-top: 0px;
+    justify-content: center;
+    display: flex;
+}
+.loginfooternav  li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.loginfooternav  li a:hover{
+    opacity: 1;
+}
+.loginfooterbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.loginfooterbottom p{
+    color: white;
+}
+.logindesigner{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    margin-top: 0px;
+}
+
+@media (max-width: 700px){
+    .loginfooternav{
+        flex-direction: column;
+    }
+    .loginfooternav li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

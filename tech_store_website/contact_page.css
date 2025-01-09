@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #111111;
+    color: #f1f1f1;
+    border-color: black;
+    z-index: 0;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+footer{
+    background-color: #111;
+}
+.footercontanier{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.footerlist{
+    display: flow-root;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+}
+.icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.icons a:hover{
+    background-color: #111;
+    transition: 0.s;
+}
+.icons a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footercontent{
+    display: flex;
+    justify-content: center;
+}
+.footernav{
+    margin: 30px 0;
+    margin-top: 0px;
+    justify-content: center;
+    display: flex;
+}
+.footernav  li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav  li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    margin-top: 0px;
+}
+
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
